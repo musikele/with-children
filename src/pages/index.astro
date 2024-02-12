@@ -5,4 +5,12 @@ const pageTitle = 'Home Page';
 
 <BaseLayout pageTitle={pageTitle}>
   <h2>My awesome blog subtitle</h2>
+
+  <button id="find-me">Show my location</button><br />
+  <p id="status"></p>
+  <a id="map-link" target="_blank"></a>
+
+  <script>
+    import '../scripts/geolocation.js';
+  </script>
 </BaseLayout>
